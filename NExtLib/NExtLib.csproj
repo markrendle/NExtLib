@@ -39,7 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Linq\EnumerableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tuple.cs" />
+    <Compile Include="Linq\TupleEnumerableExtensions.cs" />
+    <Compile Include="TupleExtensions.cs" />
+    <Compile Include="Tuple`2.cs" />
     <Compile Include="Xml\Linq\XElementExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
