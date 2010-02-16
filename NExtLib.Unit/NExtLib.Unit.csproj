@@ -8,7 +8,7 @@
     <ProjectGuid>{072F8BE4-81C1-4276-A9A5-1AEC87A84265}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NExtLib.UnitTest</RootNamespace>
+    <RootNamespace>NExtLib.Unit</RootNamespace>
     <AssemblyName>NExtLib.UnitTest</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExtLib", "NExtLib\NExtLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExtLib.Tests", "NExtLib.Tests\NExtLib.Tests.csproj", "{8DF17038-537D-45BE-B229-C99EECBB4EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExtLib.UnitTest", "NExtLib.UnitTest\NExtLib.UnitTest.csproj", "{072F8BE4-81C1-4276-A9A5-1AEC87A84265}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NExtLib.Unit", "NExtLib.Unit\NExtLib.Unit.csproj", "{072F8BE4-81C1-4276-A9A5-1AEC87A84265}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -59,9 +59,9 @@
     <None Include="Resources\XmlWithDefaultNamespace.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NExtLib.UnitTest\NExtLib.UnitTest.csproj">
+    <ProjectReference Include="..\NExtLib.Unit\NExtLib.Unit.csproj">
       <Project>{072F8BE4-81C1-4276-A9A5-1AEC87A84265}</Project>
-      <Name>NExtLib.UnitTest</Name>
+      <Name>NExtLib.Unit</Name>
     </ProjectReference>
     <ProjectReference Include="..\NExtLib\NExtLib.csproj">
       <Project>{4A191FAD-DC1D-46FC-A941-7DEB2C8C4C15}</Project>
@@ -70,6 +70,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\XmlWithNoNamespace.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\XmlWithPrefixedNamespace.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

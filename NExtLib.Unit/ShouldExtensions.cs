@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 
-namespace NExtLib.UnitTest
+namespace NExtLib.Unit
 {
     public static class ShouldExtensions
     {

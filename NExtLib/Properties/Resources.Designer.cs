@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NExtLib.Tests.Properties {
+namespace NExtLib.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace NExtLib.Tests.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NExtLib.Tests.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("NExtLib.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,53 +61,11 @@ namespace NExtLib.Tests.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;root xmlns=&quot;http://schemas.next.lib/tests&quot;&gt;
-        ///  &lt;child&gt;
-        ///    &lt;sub&gt;Foo&lt;/sub&gt;
-        ///  &lt;/child&gt;  
-        ///  &lt;child&gt;
-        ///    &lt;sub&gt;Bar&lt;/sub&gt;
-        ///  &lt;/child&gt;  
-        ///&lt;/root&gt;.
+        ///   Looks up a localized string similar to An error occurred during execution..
         /// </summary>
-        internal static string XmlWithDefaultNamespace {
+        internal static string Async_AsyncExceptionMessage {
             get {
-                return ResourceManager.GetString("XmlWithDefaultNamespace", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;root&gt;
-        ///  &lt;child&gt;
-        ///    &lt;sub&gt;Foo&lt;/sub&gt;
-        ///  &lt;/child&gt;  
-        ///  &lt;child&gt;
-        ///    &lt;sub&gt;Bar&lt;/sub&gt;
-        ///  &lt;/child&gt;  
-        ///&lt;/root&gt;.
-        /// </summary>
-        internal static string XmlWithNoNamespace {
-            get {
-                return ResourceManager.GetString("XmlWithNoNamespace", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;root xmlns:c=&quot;http://schemas.next.lib/tests&quot;&gt;
-        ///  &lt;c:child&gt;
-        ///    &lt;c:sub&gt;Foo&lt;/sub&gt;
-        ///  &lt;/c:child&gt;  
-        ///  &lt;c:child&gt;
-        ///    &lt;c:sub&gt;Bar&lt;/sub&gt;
-        ///  &lt;/c:child&gt;  
-        ///&lt;/root&gt;.
-        /// </summary>
-        internal static string XmlWithPrefixedNamespace {
-            get {
-                return ResourceManager.GetString("XmlWithPrefixedNamespace", resourceCulture);
+                return ResourceManager.GetString("Async_AsyncExceptionMessage", resourceCulture);
             }
         }
     }
