@@ -47,6 +47,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <Compile Include="StringExtensionTests.cs" />
     <Compile Include="Xml\Linq\XElementExtensionsTests.cs" />
   </ItemGroup>
   <ItemGroup>
